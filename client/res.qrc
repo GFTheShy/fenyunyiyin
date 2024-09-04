@@ -1,0 +1,49 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ui/山水.gif</file>
+        <file>msg/图标.png</file>
+        <file>msg/注册背景.png</file>
+        <file>msg/新注册背景.png</file>
+        <file>msg/错误提示.png</file>
+        <file>msg/错误.png</file>
+        <file>ui/菜单背景.gif</file>
+        <file>city.txt</file>
+        <file>11/PM2.5.png</file>
+        <file>11/风.png</file>
+        <file>11/空气质量.png</file>
+        <file>11/湿度.png</file>
+        <file>11/搜索 (1).png</file>
+        <file>11/搜索.png</file>
+        <file>11/太阳.png</file>
+        <file>22/冰雹.png</file>
+        <file>22/大雨.png</file>
+        <file>22/多云.png</file>
+        <file>22/雷雨.png</file>
+        <file>22/雾.png</file>
+        <file>22/下雪.png</file>
+        <file>22/小雨.png</file>
+        <file>22/阴.png</file>
+        <file>msg/天气预报背景.png</file>
+        <file>ui/天气预报.gif</file>
+        <file>image/bj1.jpeg</file>
+        <file>image/last.png</file>
+        <file>image/next.png</file>
+        <file>image/zt.png</file>
+        <file>image/上一首.png</file>
+        <file>image/下一首.png</file>
+        <file>image/音乐播放器图标.png</file>
+        <file>ui/音乐播放器.gif</file>
+        <file>image/播放.png</file>
+        <file>image/单曲循环.png</file>
+        <file>image/顺序播放.png</file>
+        <file>image/随机播放.png</file>
+        <file>image/单曲循环111.png</file>
+        <file>image/顺序循环111.png</file>
+        <file>image/随机循环111.png</file>
+        <file>image/好看的播放.png</file>
+        <file>msg/菜单.png</file>
+        <file>msg/天气预报.png</file>
+        <file>msg/注册.png</file>
+        <file>ui/五子棋背景.gif</file>
+    </qresource>
+</RCC>

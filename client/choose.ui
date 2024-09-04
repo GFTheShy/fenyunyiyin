@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>choose</class>
+ <widget class="QWidget" name="choose">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>779</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res.qrc">
+    <normaloff>:/msg/菜单.png</normaloff>:/msg/菜单.png</iconset>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>0</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>30</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {  
+    background-color: rgba(255, 255, 255, 128); /* 半透明白色背景 */  
+    border: 2px solid black; /* 黑色边框 */  
+    border-radius: 15px; /* 圆形边框 */  
+    padding: 5px; /* 内边距 */  
+}  
+QPushButton:hover {  
+    background-color: rgba(255, 0, 0, 128); /* 鼠标悬停时变为半透明红色 */  
+}  
+QPushButton:pressed {  
+    background-color: rgba(0, 0, 255, 128); /* 鼠标按下时变为半透明蓝色 */  
+    border-style: inset; /* 按下时边框样式变为内嵌 */  
+}</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>140</y>
+     <width>117</width>
+     <height>226</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>40</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {  
+	
+	color:rgb(85, 255, 0);
+    background-color: rgba(0, 0, 0, 128);
+    border: none; /* 去除边框 */  
+}  
+  
+QPushButton:hover {  
+	
+	color: rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0, 50); /* 鼠标悬停时的背景色，半透明 */  
+}  
+  
+QPushButton:pressed {  
+    background-color: rgba(0, 0, 0, 100); /* 鼠标按下时的背景色，不透明 */  
+}</string>
+      </property>
+      <property name="text">
+       <string>天气预报</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {  
+	
+	color:rgb(85, 255, 0);
+    background-color: rgba(0, 0, 0, 128);
+    border: none; /* 去除边框 */  
+}  
+  
+QPushButton:hover { 
+	color: rgb(255, 0, 0); 
+    background-color: rgba(0, 0, 0, 50); /* 鼠标悬停时的背景色，半透明 */  
+}  
+  
+QPushButton:pressed {  
+    background-color: rgba(0, 0, 0, 100); /* 鼠标按下时的背景色，不透明 */  
+}</string>
+      </property>
+      <property name="text">
+       <string>音乐播放器</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {  
+	
+	color:rgb(85, 255, 0);
+    background-color: rgba(0, 0, 0, 128);
+    border: none; /* 去除边框 */  
+}  
+  
+QPushButton:hover { 
+	color: rgb(255, 0, 0); 
+    background-color: rgba(0, 0, 0, 50); /* 鼠标悬停时的背景色，半透明 */  
+}  
+  
+QPushButton:pressed {  
+    background-color: rgba(0, 0, 0, 100); /* 鼠标按下时的背景色，不透明 */  
+}</string>
+      </property>
+      <property name="text">
+       <string>五子棋</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {  
+	
+	color:rgb(85, 255, 0);
+    background-color: rgba(0, 0, 0, 128); 
+    border: none; /* 去除边框 */  
+}  
+  
+QPushButton:hover { 
+	color: rgb(255, 0, 0); 
+    background-color: rgba(0, 0, 0, 50); /* 鼠标悬停时的背景色，半透明 */  
+}  
+  
+QPushButton:pressed {  
+    background-color: rgba(0, 0, 0, 100); /* 鼠标按下时的背景色，不透明 */  
+}</string>
+      </property>
+      <property name="text">
+       <string>画板</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
